@@ -19,7 +19,7 @@
 
   <header class="main-header">
     <!-- Logo -->
-    <a href="${pageContext.request.contextPath}/index2.html" class="logo">
+    <a href="${pageContext.request.contextPath}/index.jsp" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->	
       <span class="logo-mini"><b>T</b>WB</span>
       <!-- logo for regular state and mobile devices -->
@@ -67,29 +67,7 @@
           </li>
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="${pageContext.request.contextPath}/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-              <span class="hidden-xs">Gerlan Ferreira</span>
-            </a>
-            <ul class="dropdown-menu">
-              <!-- User image -->
-              <li class="user-header">
-                <img src="${pageContext.request.contextPath}/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
-
-                <p>
-                  Gerlan Ferreira - Web Developer
-                  <small>IESP. 2019</small>
-                </p>
-              </li>
-              <li class="user-footer">
-                <div class="pull-left">
-                  <a href="#" class="btn btn-default btn-flat">Profile</a>
-                </div>
-                <div class="pull-right">
-                  <a href="#" class="btn btn-default btn-flat">Sign out</a>
-                </div>
-              </li>
-            </ul>
+              <a href="login.jsp">Sair</a>
           </li>
           <!-- Control Sidebar Toggle Button -->
           <li>
@@ -118,15 +96,9 @@
       </div>
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MENU</li>
-        <li class="treeview">
-           <ul class="treeview-menu">
-            <li><a href="${pageContext.request.contextPath}/index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-            <li><a href="${pageContext.request.contextPath}/index2.html"><i class="fa fa-circle-o"></i> Dashboard v2</a></li>
-          </ul>
-        </li>
         <li class="treeview active">
           <ul class="treeview-menu">
-            <li><a href="#"><img src="${pageContext.request.contextPath}/dist/img/cliente.png"> Cadastro de Cliente</a></li>
+            <li><a href="form_cliente.jsp"><img src="${pageContext.request.contextPath}/dist/img/cliente.png"> Cadastro de Cliente</a></li>
             <li><a href="#"><img src="${pageContext.request.contextPath}/dist/img/fornecedor.png"> Cadastro de Fornecedor</a></li>
             <li><a href="#"><img src="${pageContext.request.contextPath}/dist/img/funcionario.png"> Cadastro de Funcionário</a></li>
             <li><a href="#"><img src="${pageContext.request.contextPath}/dist/img/usuario.png"> Cadastro de Usuário</a></li>
