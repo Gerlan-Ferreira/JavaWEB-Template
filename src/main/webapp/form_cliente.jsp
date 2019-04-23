@@ -96,6 +96,7 @@
                 <div class="form-group">
                   <label for="exampleInputEmail1">Email</label>
                   <input type="email" class="form-control" id="exampleInputEmail1" placeholder="e-mail" />
+                  <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
                 </div>
                 <div class="form-group">
                   <label for="exampleInputEmail1">Tipo de Pessoa: </label>
